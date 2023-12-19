@@ -101,6 +101,8 @@ After your Haskell setup is working well enough to run ~stack~,
 
 It may take some time to compile ~ghc~, plus a whole raft of dependencies.
 
+On macOS, you may need to run ~sudo ln -s /opt/homebrew/include/* /usr/local/include~ in order for ~pcre-light~ to install correctly.
+
 **** Confirming the install
 
 A number of sample CSV inputs can be found in the ~test/examples~ directory.
